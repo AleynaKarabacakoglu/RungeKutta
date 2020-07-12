@@ -1,1 +1,4 @@
-# RungeKutta
+# Runge Kutta
+Bu uygulamada myrunge.m dosyasının içinde 4 adımlı Runge Kutta Metodu fonksiyon olarak koda dökülmüştür. Bu fonksiyonu parametleri düzgün bir şekilde ayarlayarak kullanabilir ve değişkenlerin nasıl değiştiğini gözlemleyebiliriz. RungeKutta.m matlab dosyasında myrunge fonksiyonunu belirli bir süre çağırarak x1 ve x2 değişkenlerinin zamana göre nasıl değiştiği gösterilmiştir.
+
+Bu uygulamada öncelikle bir while döngüsü içerisinde t süresi bitesiye kadar fonksiyonumu çağırdım böylece belirtilen süre içerisinde doğru sonuca daha çok yaklaşacaktım. Adım sayısı arttıkça çıkış o kadar doğru olur. Fakat adım sayısını çok fazla seçmek gereksizdir ve bilgisayarın çok fazla işlem yapması demektir. Uygulamayı çalıştırdığınızda da görüldüğü gibi x1 ve x2 değişkenleri git gide sabit bir değere oturmaktadır. Bu da hatanın git gide azaldığını ifade eder. 
